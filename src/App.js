@@ -4,11 +4,12 @@ import React from "react";
 // import Input from "./components/Input";
 // import Text from "./components/Text";
 import Massive from "./components/Massive";
+import Counter from "./components/Counter"
 
 function Switch () {
   return (
       <div className="App">
-          
+          <Counter />
           <Massive />
       </div>
   )
