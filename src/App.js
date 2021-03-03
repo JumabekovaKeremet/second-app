@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import Switch from "./components/Switch";
+// import Counter from "./components/Counter";
+// import Input from "./components/Input";
+// import Text from "./components/Text";
+import Massive from "./components/Massive";
 
-function App() {
+function Switch () {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <div className="App">
+          
+          <Massive />
+      </div>
+  )
 }
-
 export default App;
