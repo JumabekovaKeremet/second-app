@@ -1,0 +1,7 @@
+.Button{
+    margin-left: 10px;
+    width:  50px;
+    height: 20px;
+    color: blue;
+    border: 5px dotted green;
+}
